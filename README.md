@@ -1,4 +1,4 @@
-[![npm version](https://badge.fury.io/js/aws-resolvers.svg)](https://badge.fury.io/js/aws-resolvers
+[![npm version](https://badge.fury.io/js/aws-resolvers.svg)](https://badge.fury.io/js/aws-resolvers)
 [![npm downloads](https://img.shields.io/npm/dt/aws-resolvers.svg?style=flat)](https://www.npmjs.com/package/aws-resolvers)
 
 ### Installation

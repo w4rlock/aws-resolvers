@@ -1,5 +1,6 @@
 const Aws = require('aws-sdk');
-const SSM = region => new Aws.SSM({ region });
+
+const SSM = (region) => new Aws.SSM({ region });
 
 const getValueFromSSM = (region, secretPath, withDecryption = true) =>
   new Promise((res, rej) => {
@@ -20,6 +21,5 @@ const getValueFromSSM = (region, secretPath, withDecryption = true) =>
       }
     });
   });
-
 
 module.exports = getValueFromSSM;
