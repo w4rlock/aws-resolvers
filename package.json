@@ -1,5 +1,5 @@
 {
-  "name": "CHANGE_ME_PACKAGE_NAME",
+  "name": "aws-resolvers",
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "release:major": "npm run release -- --release-as major",
     "release:minor": "npm run release -- --release-as minor",
     "release:patch": "npm run release -- --release-as patch",
-    "unpublish": "npx force-unpublish CHANGE_ME_PACKAGE_NAME 'npmrc remove module'"
+    "unpublish": "npx force-unpublish aws-resolvers 'npmrc remove module'"
   },
   "husky": {
     "hooks": {
@@ -26,7 +26,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "aws-sdk": "2.675.0"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "8.3.4",
     "babel-eslint": "10.1.0",
